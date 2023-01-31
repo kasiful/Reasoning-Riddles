@@ -1,5 +1,7 @@
 extends Control
 
+
+
 func read_json(path: String):
 	var file = File.new()
 	file.open(path, File.READ)
@@ -31,7 +33,7 @@ func _ready():
 		button.text = str(i+1)
 		#button.rect_min_size = Vector2(80, 50)
 		
-		button.connect("button_down", self, "action", ["easy1" ,i+1])
+		button.connect("pressed", self, "action", ["easy1" ,i+1])
 		$TabContainer/Easy/ScrollContainer/GridContainer.add_child(button)
 	
 	# menambahkan tombol medium

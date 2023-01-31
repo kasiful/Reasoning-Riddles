@@ -1,0 +1,424 @@
+extends Node
+
+
+var status = """
+[
+  {
+	"no_urut": 1,
+	"status": 0
+  },
+  {
+	"no_urut": 2,
+	"status": 0
+  },
+  {
+	"no_urut": 3,
+	"status": 0
+  },
+  {
+	"no_urut": 4,
+	"status": 0
+  },
+  {
+	"no_urut": 5,
+	"status": 0
+  },
+  {
+	"no_urut": 6,
+	"status": 0
+  },
+  {
+	"no_urut": 7,
+	"status": 0
+  },
+  {
+	"no_urut": 8,
+	"status": 0
+  },
+  {
+	"no_urut": 9,
+	"status": 0
+  },
+  {
+	"no_urut": 10,
+	"status": 0
+  },
+  {
+	"no_urut": 11,
+	"status": 0
+  },
+  {
+	"no_urut": 12,
+	"status": 0
+  },
+  {
+	"no_urut": 13,
+	"status": 0
+  },
+  {
+	"no_urut": 14,
+	"status": 0
+  },
+  {
+	"no_urut": 15,
+	"status": 0
+  },
+  {
+	"no_urut": 16,
+	"status": 0
+  },
+  {
+	"no_urut": 17,
+	"status": 0
+  },
+  {
+	"no_urut": 18,
+	"status": 0
+  },
+  {
+	"no_urut": 19,
+	"status": 0
+  },
+  {
+	"no_urut": 20,
+	"status": 0
+  },
+  {
+	"no_urut": 21,
+	"status": 0
+  },
+  {
+	"no_urut": 22,
+	"status": 0
+  },
+  {
+	"no_urut": 23,
+	"status": 0
+  },
+  {
+	"no_urut": 24,
+	"status": 0
+  },
+  {
+	"no_urut": 25,
+	"status": 0
+  },
+  {
+	"no_urut": 26,
+	"status": 0
+  },
+  {
+	"no_urut": 27,
+	"status": 0
+  },
+  {
+	"no_urut": 28,
+	"status": 0
+  },
+  {
+	"no_urut": 29,
+	"status": 0
+  },
+  {
+	"no_urut": 30,
+	"status": 0
+  },
+  {
+	"no_urut": 31,
+	"status": 0
+  },
+  {
+	"no_urut": 32,
+	"status": 0
+  },
+  {
+	"no_urut": 33,
+	"status": 0
+  },
+  {
+	"no_urut": 34,
+	"status": 0
+  },
+  {
+	"no_urut": 35,
+	"status": 0
+  },
+  {
+	"no_urut": 36,
+	"status": 0
+  },
+  {
+	"no_urut": 37,
+	"status": 0
+  },
+  {
+	"no_urut": 38,
+	"status": 0
+  },
+  {
+	"no_urut": 39,
+	"status": 0
+  },
+  {
+	"no_urut": 40,
+	"status": 0
+  },
+  {
+	"no_urut": 41,
+	"status": 0
+  },
+  {
+	"no_urut": 42,
+	"status": 0
+  },
+  {
+	"no_urut": 43,
+	"status": 0
+  },
+  {
+	"no_urut": 44,
+	"status": 0
+  },
+  {
+	"no_urut": 45,
+	"status": 0
+  },
+  {
+	"no_urut": 46,
+	"status": 0
+  },
+  {
+	"no_urut": 47,
+	"status": 0
+  },
+  {
+	"no_urut": 48,
+	"status": 0
+  },
+  {
+	"no_urut": 49,
+	"status": 0
+  },
+  {
+	"no_urut": 50,
+	"status": 0
+  },
+  {
+	"no_urut": 51,
+	"status": 0
+  },
+  {
+	"no_urut": 52,
+	"status": 0
+  },
+  {
+	"no_urut": 53,
+	"status": 0
+  },
+  {
+	"no_urut": 54,
+	"status": 0
+  },
+  {
+	"no_urut": 55,
+	"status": 0
+  },
+  {
+	"no_urut": 56,
+	"status": 0
+  },
+  {
+	"no_urut": 57,
+	"status": 0
+  },
+  {
+	"no_urut": 58,
+	"status": 0
+  },
+  {
+	"no_urut": 59,
+	"status": 0
+  },
+  {
+	"no_urut": 60,
+	"status": 0
+  },
+  {
+	"no_urut": 61,
+	"status": 0
+  },
+  {
+	"no_urut": 62,
+	"status": 0
+  },
+  {
+	"no_urut": 63,
+	"status": 0
+  },
+  {
+	"no_urut": 64,
+	"status": 0
+  },
+  {
+	"no_urut": 65,
+	"status": 0
+  },
+  {
+	"no_urut": 66,
+	"status": 0
+  },
+  {
+	"no_urut": 67,
+	"status": 0
+  },
+  {
+	"no_urut": 68,
+	"status": 0
+  },
+  {
+	"no_urut": 69,
+	"status": 0
+  },
+  {
+	"no_urut": 70,
+	"status": 0
+  },
+  {
+	"no_urut": 71,
+	"status": 0
+  },
+  {
+	"no_urut": 72,
+	"status": 0
+  },
+  {
+	"no_urut": 73,
+	"status": 0
+  },
+  {
+	"no_urut": 74,
+	"status": 0
+  },
+  {
+	"no_urut": 75,
+	"status": 0
+  },
+  {
+	"no_urut": 76,
+	"status": 0
+  },
+  {
+	"no_urut": 77,
+	"status": 0
+  },
+  {
+	"no_urut": 78,
+	"status": 0
+  },
+  {
+	"no_urut": 79,
+	"status": 0
+  },
+  {
+	"no_urut": 80,
+	"status": 0
+  },
+  {
+	"no_urut": 81,
+	"status": 0
+  },
+  {
+	"no_urut": 82,
+	"status": 0
+  },
+  {
+	"no_urut": 83,
+	"status": 0
+  },
+  {
+	"no_urut": 84,
+	"status": 0
+  },
+  {
+	"no_urut": 85,
+	"status": 0
+  },
+  {
+	"no_urut": 86,
+	"status": 0
+  },
+  {
+	"no_urut": 87,
+	"status": 0
+  },
+  {
+	"no_urut": 88,
+	"status": 0
+  },
+  {
+	"no_urut": 89,
+	"status": 0
+  },
+  {
+	"no_urut": 90,
+	"status": 0
+  },
+  {
+	"no_urut": 91,
+	"status": 0
+  },
+  {
+	"no_urut": 92,
+	"status": 0
+  },
+  {
+	"no_urut": 93,
+	"status": 0
+  },
+  {
+	"no_urut": 94,
+	"status": 0
+  },
+  {
+	"no_urut": 95,
+	"status": 0
+  },
+  {
+	"no_urut": 96,
+	"status": 0
+  },
+  {
+	"no_urut": 97,
+	"status": 0
+  },
+  {
+	"no_urut": 98,
+	"status": 0
+  },
+  {
+	"no_urut": 99,
+	"status": 0
+  },
+  {
+	"no_urut": 100,
+	"status": 0
+  }
+]
+"""
+
+func get_data():
+	return self.status
+
+func get_data_json():
+	return JSON.parse(self.status).result
+	
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass

@@ -55,6 +55,8 @@ margin_right = 300.0
 margin_bottom = 70.0
 rect_min_size = Vector2( 300, 70 )
 custom_fonts/font = SubResource( 1 )
+toggle_mode = true
+shortcut_in_tooltip = false
 text = "Play"
 
 [node name="Statistics" type="Button" parent="Menu"]
@@ -63,6 +65,7 @@ margin_right = 300.0
 margin_bottom = 144.0
 rect_min_size = Vector2( 300, 70 )
 custom_fonts/font = SubResource( 1 )
+keep_pressed_outside = true
 text = "Statistics"
 
 [node name="FollowUs" type="Button" parent="Menu"]
@@ -71,6 +74,7 @@ margin_right = 300.0
 margin_bottom = 218.0
 rect_min_size = Vector2( 300, 70 )
 custom_fonts/font = SubResource( 1 )
+keep_pressed_outside = true
 text = "Follow Us"
 
 [node name="Settings" type="Button" parent="Menu"]
@@ -79,6 +83,7 @@ margin_right = 300.0
 margin_bottom = 292.0
 rect_min_size = Vector2( 300, 70 )
 custom_fonts/font = SubResource( 1 )
+keep_pressed_outside = true
 text = "Settings"
 
 [node name="Exit" type="Button" parent="Menu"]
@@ -87,10 +92,5 @@ margin_right = 300.0
 margin_bottom = 366.0
 rect_min_size = Vector2( 300, 70 )
 custom_fonts/font = SubResource( 1 )
+keep_pressed_outside = true
 text = "Exit"
-
-[node name="Label" type="Label" parent="."]
-margin_left = 68.0
-margin_top = 108.0
-margin_right = 108.0
-margin_bottom = 122.0

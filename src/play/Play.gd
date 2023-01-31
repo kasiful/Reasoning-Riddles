@@ -25,7 +25,13 @@ func _ready():
 	}
 	$Judul.text = judul[data_temp.level]+" "+str(data_temp.no_urut+1)
 	
-	var banksoal = read_json("res://dataset/soal/"+data_temp.level+".json")
+#	var banksoal = read_json("res://dataset/soal/"+data_temp.level+".json")
+
+	print("res://dataset/soal/"+data_temp.level+".gd")
+	
+	var banksoal = load("res://dataset/soal/"+data_temp.level+".gd").new()
+	banksoal = banksoal.get_data_json()
+	
 	print(banksoal[data_temp.no_urut])
 	
 	var soal = banksoal[data_temp.no_urut]
@@ -37,12 +43,17 @@ func _ready():
 	$VBoxContainer/Soal.text = soal.soal
 #	$VBoxContainer/Gambar.texture
 	
-	var texture = ImageTexture.new()
-	var image = Image.new()
-	image.load("res://dataset/gambar/"+soal.folder+"/"+soal.gambar)
-	texture.create_from_image(image)
+	var img_texture_path = "res://dataset/gambar/"+soal.folder+"/"+soal.gambar
+	var img_texture: StreamTexture = load(img_texture_path)
+#	$AvatarSP.texture = img_texture
+	$VBoxContainer/Gambar.texture = img_texture
 	
-	$VBoxContainer/Gambar.texture = texture
+#	var texture = ImageTexture.new()
+#	var image = Image.new()
+#	image.load("res://dataset/gambar/"+soal.folder+"/"+soal.gambar)
+#	texture.create_from_image(image)
+	
+#	$VBoxContainer/Gambar.texture = texture
 #	$VBoxContainer/Gambar.stretch_mode = StretchMode
 	
 	

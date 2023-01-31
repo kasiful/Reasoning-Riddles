@@ -35,20 +35,33 @@ anchor_bottom = 1.0
 script = ExtResource( 2 )
 
 [node name="BackButton" type="Button" parent="."]
-margin_left = 40.0
+margin_left = 24.0
 margin_top = 56.0
-margin_right = 143.0
+margin_right = 127.0
 margin_bottom = 104.0
+mouse_filter = 1
 custom_fonts/font = SubResource( 1 )
+shortcut_in_tooltip = false
 text = "< Back"
 
-[node name="Judul" type="Label" parent="."]
-margin_left = 168.0
+[node name="HintButton" type="Button" parent="."]
+margin_left = 472.0
 margin_top = 56.0
-margin_right = 377.0
+margin_right = 575.0
+margin_bottom = 104.0
+mouse_filter = 1
+custom_fonts/font = SubResource( 1 )
+shortcut_in_tooltip = false
+text = "Hint"
+
+[node name="Judul" type="Label" parent="."]
+margin_left = 192.0
+margin_top = 56.0
+margin_right = 401.0
 margin_bottom = 108.0
 custom_fonts/font = SubResource( 2 )
 text = "Select Level"
+align = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_left = 0.5
@@ -58,7 +71,7 @@ anchor_bottom = 0.5
 margin_left = -276.0
 margin_top = -368.0
 margin_right = 276.0
-margin_bottom = 320.0
+margin_bottom = 384.0
 custom_constants/separation = 24
 
 [node name="Soal" type="Label" parent="VBoxContainer"]
@@ -82,9 +95,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 40.0
-margin_top = -128.0
+margin_top = -80.0
 margin_right = -216.0
-margin_bottom = -80.0
+margin_bottom = -32.0
 custom_fonts/font = SubResource( 4 )
 
 [node name="Label" type="Label" parent="."]
@@ -92,9 +105,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 40.0
-margin_top = -168.0
+margin_top = -120.0
 margin_right = -40.0
-margin_bottom = -134.0
+margin_bottom = -86.0
 custom_fonts/font = SubResource( 5 )
 text = "Answer"
 
@@ -103,8 +116,8 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 408.0
-margin_top = -128.0
+margin_top = -80.0
 margin_right = -39.0
-margin_bottom = -80.0
+margin_bottom = -32.0
 custom_fonts/font = SubResource( 6 )
 text = "Submit"
