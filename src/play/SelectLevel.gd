@@ -10,15 +10,9 @@ extends Control
 
 func read_csv(path):
 	var file = File.new()
-	if file.open(path, File.READ) != OK:
-		return []
-	var data = []
-	var contents = file.get_as_text().strip().split("\n")
-	for line in contents:
-		var row = line.split(",")
-		data.append(row)
+	file.open("res://data.json", File.READ)
+	var json_data = file.get_as_text().parse_json()
 	file.close()
-	return data
 
 func _ready():
 
