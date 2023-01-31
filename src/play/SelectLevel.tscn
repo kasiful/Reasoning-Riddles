@@ -1,10 +1,19 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://src/play/SelectLevel.gd" type="Script" id=1]
 [ext_resource path="res://fonts/Nunito/static/Nunito-Bold.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://fonts/Nunito/static/Nunito-Regular.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="DynamicFont" id=1]
-size = 50
+size = 36
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 37
 font_data = ExtResource( 2 )
 
 [node name="SelectLevel" type="Control"]
@@ -21,7 +30,7 @@ script = ExtResource( 1 )
 [node name="TabContainer" type="TabContainer" parent="."]
 anchor_right = 1.0
 margin_left = 28.0
-margin_top = 46.0
+margin_top = 144.0
 margin_right = -24.0
 margin_bottom = 1000.0
 custom_fonts/font = SubResource( 1 )
@@ -30,7 +39,7 @@ custom_fonts/font = SubResource( 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 4.0
-margin_top = 87.0
+margin_top = 68.0
 margin_right = -4.0
 margin_bottom = -4.0
 
@@ -40,9 +49,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 margin_left = -243.0
-margin_top = -409.925
+margin_top = -372.0
 margin_right = 243.0
-margin_bottom = 409.925
+margin_bottom = 364.0
 
 [node name="GridContainer" type="GridContainer" parent="TabContainer/Easy/ScrollContainer"]
 light_mask = 0
@@ -59,10 +68,18 @@ margin_top = 32.0
 margin_right = -4.0
 margin_bottom = -4.0
 
-[node name="GridContainer" type="GridContainer" parent="TabContainer/Medium"]
+[node name="ScrollContainer" type="ScrollContainer" parent="TabContainer/Medium"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -243.0
+margin_top = -372.0
+margin_right = 243.0
+margin_bottom = 364.0
+
+[node name="GridContainer" type="GridContainer" parent="TabContainer/Medium/ScrollContainer"]
 light_mask = 0
-margin_right = 485.0
-margin_bottom = 216.0
 custom_constants/vseparation = 15
 custom_constants/hseparation = 15
 columns = 5
@@ -75,3 +92,35 @@ margin_left = 4.0
 margin_top = 32.0
 margin_right = -4.0
 margin_bottom = -4.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="TabContainer/Hard"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -243.0
+margin_top = -372.0
+margin_right = 243.0
+margin_bottom = 364.0
+
+[node name="GridContainer" type="GridContainer" parent="TabContainer/Hard/ScrollContainer"]
+light_mask = 0
+custom_constants/vseparation = 15
+custom_constants/hseparation = 15
+columns = 5
+
+[node name="BackButton" type="Button" parent="."]
+margin_left = 40.0
+margin_top = 56.0
+margin_right = 143.0
+margin_bottom = 104.0
+custom_fonts/font = SubResource( 2 )
+text = "< Back"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 216.0
+margin_top = 56.0
+margin_right = 425.0
+margin_bottom = 108.0
+custom_fonts/font = SubResource( 3 )
+text = "Select Level"

@@ -88,3 +88,9 @@ margin_bottom = 366.0
 rect_min_size = Vector2( 300, 70 )
 custom_fonts/font = SubResource( 1 )
 text = "Exit"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 68.0
+margin_top = 108.0
+margin_right = 108.0
+margin_bottom = 122.0
