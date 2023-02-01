@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://fonts/Nunito/static/Nunito-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://src/play/Play.gd" type="Script" id=2]
@@ -28,6 +28,12 @@ font_data = ExtResource( 1 )
 [sub_resource type="DynamicFont" id=6]
 size = 24
 font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=7]
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=8]
+default_font = SubResource( 7 )
 
 [node name="Play" type="Control"]
 anchor_right = 1.0
@@ -90,7 +96,7 @@ texture = ExtResource( 4 )
 expand = true
 stretch_mode = 6
 
-[node name="LineEdit" type="LineEdit" parent="."]
+[node name="AnswerInputText" type="LineEdit" parent="."]
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -100,7 +106,7 @@ margin_right = -216.0
 margin_bottom = -32.0
 custom_fonts/font = SubResource( 4 )
 
-[node name="Label" type="Label" parent="."]
+[node name="AnswerLabel" type="Label" parent="."]
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -111,7 +117,7 @@ margin_bottom = -86.0
 custom_fonts/font = SubResource( 5 )
 text = "Answer"
 
-[node name="Button" type="Button" parent="."]
+[node name="SubmitButton" type="Button" parent="."]
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -121,3 +127,192 @@ margin_right = -39.0
 margin_bottom = -32.0
 custom_fonts/font = SubResource( 6 )
 text = "Submit"
+
+[node name="HintPopup" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect2" type="ColorRect" parent="HintPopup"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.784314 )
+
+[node name="ColorRect" type="ColorRect" parent="HintPopup"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 40.0
+margin_top = 252.0
+margin_right = -40.0
+margin_bottom = -192.0
+
+[node name="AdsButton" type="Button" parent="HintPopup"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -200.0
+margin_top = -50.0
+margin_right = 200.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 400, 100 )
+mouse_filter = 1
+custom_fonts/font = SubResource( 1 )
+shortcut_in_tooltip = false
+text = "Watch Video Ads for Hint"
+
+[node name="Judul" type="Label" parent="HintPopup"]
+margin_left = 192.0
+margin_top = 334.0
+margin_right = 401.0
+margin_bottom = 386.0
+rect_pivot_offset = Vector2( 126, 26 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Need Help?"
+align = 1
+
+[node name="NoThanksButton" type="Button" parent="HintPopup"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -200.0
+margin_top = 78.0
+margin_right = 200.0
+margin_bottom = 178.0
+rect_min_size = Vector2( 400, 100 )
+mouse_filter = 1
+custom_fonts/font = SubResource( 1 )
+shortcut_in_tooltip = false
+text = "No, thanks :D"
+
+[node name="HintPopup2" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect2" type="ColorRect" parent="HintPopup2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.784314 )
+
+[node name="ColorRect" type="ColorRect" parent="HintPopup2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 40.0
+margin_top = 252.0
+margin_right = -40.0
+margin_bottom = -192.0
+
+[node name="Judul" type="Label" parent="HintPopup2"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -104.5
+margin_top = -202.0
+margin_right = 104.5
+margin_bottom = -150.0
+rect_pivot_offset = Vector2( 126, 26 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Answer:"
+align = 1
+valign = 1
+
+[node name="Answer" type="Label" parent="HintPopup2"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -200.0
+margin_top = -123.0
+margin_right = 200.0
+margin_bottom = 144.0
+rect_pivot_offset = Vector2( 126, 26 )
+theme = SubResource( 8 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer "
+align = 1
+valign = 1
+autowrap = true
+
+[node name="NoThanksButton" type="Button" parent="HintPopup2"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -200.0
+margin_top = 174.0
+margin_right = 200.0
+margin_bottom = 274.0
+rect_min_size = Vector2( 400, 100 )
+mouse_filter = 1
+custom_fonts/font = SubResource( 1 )
+shortcut_in_tooltip = false
+text = "Close"
+
+[node name="CorrectPopup" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect2" type="ColorRect" parent="CorrectPopup"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.784314 )
+
+[node name="ColorRect" type="ColorRect" parent="CorrectPopup"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 40.0
+margin_top = 252.0
+margin_right = -40.0
+margin_bottom = -192.0
+
+[node name="NextButton" type="Button" parent="CorrectPopup"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -200.0
+margin_top = -50.0
+margin_right = 200.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 400, 100 )
+mouse_filter = 1
+custom_fonts/font = SubResource( 1 )
+shortcut_in_tooltip = false
+text = "Next Level"
+
+[node name="Judul" type="Label" parent="CorrectPopup"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -138.0
+margin_top = -161.0
+margin_right = 138.0
+margin_bottom = -109.0
+rect_pivot_offset = Vector2( 126, 26 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Correct"
+align = 1
+valign = 1
+
+[node name="BackButton2" type="Button" parent="CorrectPopup"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -200.0
+margin_top = 78.0
+margin_right = 200.0
+margin_bottom = 178.0
+rect_min_size = Vector2( 400, 100 )
+mouse_filter = 1
+custom_fonts/font = SubResource( 1 )
+shortcut_in_tooltip = false
+text = "Select Level"

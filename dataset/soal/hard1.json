@@ -1,8 +1,8 @@
 [
   {
     "": 0,
-    "soal": "#1. Which element does not belong to the group? It isnot related to any arithmetical of the numbers.",
-    "solusi": "#1. The correct answer is C. In all the other numbersthe last three digits are the square of the ﬁrst two digits.",
+    "soal": "#1. Which element does not belong to the group? It is not related to any arithmetical of the numbers.",
+    "solusi": "#1. The correct answer is C. In all the other numbersthe last three digits are the square of the first two digits.",
     "no_urut": 1,
     "folder": "hard1",
     "hasil": "",
@@ -11,7 +11,7 @@
   },
   {
     "": 1,
-    "soal": "#2. If some pictures are ﬁrst attempts and no ﬁrstattempts are really good, which of the following conclusions iscorrect?",
+    "soal": "#2. If some pictures are first attempts and no first attempts are really good, which of the following conclusions is correct?",
     "solusi": "#2. The correct answer is B.",
     "no_urut": 2,
     "folder": "hard1",
@@ -21,7 +21,7 @@
   },
   {
     "": 2,
-    "soal": "#3. T wo men starting at the same point walk inopposite directions for 3 feet. Both turn left and walk another4 feet. What is the distance between them?",
+    "soal": "#3. Two men starting at the same point walk inopposite directions for 3 feet. Both turn left and walk another4 feet. What is the distance between them?",
     "solusi": "#3. The correct answer is D. Using the Pythagoreantheorem, the solution is 2 by the square root of (3^2 + 4^2).",
     "no_urut": 3,
     "folder": "hard1",
@@ -31,7 +31,7 @@
   },
   {
     "": 3,
-    "soal": "#4. John is 46 years old. His son is 5 years youngerthan half of John's age. How old is John's son?",
+    "soal": "#4. John is 46 years old. His son is 5 years younger than half of John's age. How old is John's son?",
     "solusi": "#4. The correct answer is 18. John's son age isnowadays half of John's age minus 5, that is, (46 / 2) - 5.",
     "no_urut": 4,
     "folder": "hard1",
@@ -41,7 +41,7 @@
   },
   {
     "": 4,
-    "soal": "#5. A girl once said: 2 days ago I was 18 years old. Nextyear I will be 21 years old. Can this be true? Answer A or B.; A) YesB) NoChoose one of the following:",
+    "soal": "#5. A girl once said: 2 days ago I was 18 years old. Next year I will be 21 years old. Can this be true? Answer A or B.;",
     "solusi": "#5. The correct answer is A. She was born 31st ofDecember and she said this on 1st of January .;",
     "no_urut": 5,
     "folder": "hard1",
@@ -51,7 +51,7 @@
   },
   {
     "": 5,
-    "soal": "#6. What is the next logical sequence of objects in thelast column?",
+    "soal": "#6. What is the next logical sequence of objects in the last column?",
     "solusi": "#6. The correct answer is A. It is the only combinationthat you can build with the given elements without repeatingthem.",
     "no_urut": 6,
     "folder": "hard1",
@@ -61,7 +61,7 @@
   },
   {
     "": 6,
-    "soal": "#7. When you fold the ﬁgure below as a cube, whichface on the ﬁgure is opposite the face with a 4 drawn on it?Answer the number written on the face.; 1 2; 3 4 5; 6",
+    "soal": "#7. When you fold the figure below as a cube, whichface on the figure is opposite the face with a 4 drawn on it? Answer the number written on the face.; ",
     "solusi": "#7. The correct answer is 1.",
     "no_urut": 7,
     "folder": "hard1",
@@ -71,7 +71,7 @@
   },
   {
     "": 7,
-    "soal": "#8. The letters around the squares follow a pattern.Which letter should replace the question mark in the lastsquare?; C HMR; A FKPB; GL?",
+    "soal": "#8. The letters around the squares follow a pattern. Which letter should replace the question mark in the last square?;",
     "solusi": "#8. The correct answer is Q. Every letter is calculatedby taking the alphabetical position of the previous characterand adding 5 to it in order to get the position of the nextletter.",
     "no_urut": 8,
     "folder": "hard1",
@@ -91,7 +91,7 @@
   },
   {
     "": 9,
-    "soal": "#10. Using triangles only, how many triangles areneeded in the right part of the last ﬁgure to keep it balanced?; ?;",
+    "soal": "#10. Using triangles only, how many triangles areneeded in the right part of the last figure to keep it balanced?;",
     "solusi": "#10. The correct answer is 7. Every circle is equivalentto two triangles and every square to three triangles.",
     "no_urut": 10,
     "folder": "hard1",
@@ -101,8 +101,8 @@
   },
   {
     "": 10,
-    "soal": "#11. How many boxes measuring 1 x 1 x 0.5 can be ﬁtinto a container measuring 6 x 5 x 8?; ContainerBox",
-    "solusi": "#11. The correct answer is 480. You can ﬁt 6 * 5 * 8 * 2boxes.",
+    "soal": "#11. How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 x 5 x 8?; ",
+    "solusi": "#11. The correct answer is 480. You can fit 6 * 5 * 8 * 2boxes.",
     "no_urut": 11,
     "folder": "hard1",
     "hasil": "",
@@ -111,7 +111,7 @@
   },
   {
     "": 11,
-    "soal": "#12. John needs 48 hours to clean a warehouse and hisfriend needs half as many . How many hours would it takethem to clean up the warehouse if they worked together?",
+    "soal": "#12. John needs 48 hours to clean a warehouse and his friend needs half as many . How many hours would it takethem to clean up the warehouse if they worked together?",
     "solusi": "#12. The correct answer is D. John cleans at the speedof 1 / 48 per hour and his friend at 1 / 24. T ogether they willneed 16 hours.",
     "no_urut": 12,
     "folder": "hard1",
@@ -121,8 +121,8 @@
   },
   {
     "": 12,
-    "soal": "#13. A group of people, spaced out evenly, are sittingat a round table. How many people are there if the 4th personsits directly across from the 12th?; Two people in the table sitting across from each other",
-    "solusi": "#13. The correct answer is 16. Subtracting the twopositions you ﬁnd out how many people are seated half wayaround the table. Doubling this number leaves you with thetotal amount of people.",
+    "soal": "#13. A group of people, spaced out evenly, are sittingat a round table. How many people are there if the 4th personsits directly across from the 12th?;",
+    "solusi": "#13. The correct answer is 16. Subtracting the twopositions you find out how many people are seated half wayaround the table. Doubling this number leaves you with thetotal amount of people.",
     "no_urut": 13,
     "folder": "hard1",
     "hasil": "",
@@ -132,7 +132,7 @@
   {
     "": 13,
     "soal": "#14. All attendees to a party are introduced to oneanother. 10 handshakes are made in total. How many peopleare attending the party?;",
-    "solusi": "#14. The correct answer is 5. Using n as the totalnumber of people, the ﬁrst person handshakes n-1 people, thesecond n-2 people, etc. The result is the sum of the ﬁrst n-1consecutive numbers: 1+2+3+...+(n-1).",
+    "solusi": "#14. The correct answer is 5. Using n as the totalnumber of people, the first person handshakes n-1 people, thesecond n-2 people, etc. The result is the sum of the first n-1consecutive numbers: 1+2+3+...+(n-1).",
     "no_urut": 14,
     "folder": "hard1",
     "hasil": "",
@@ -151,7 +151,7 @@
   },
   {
     "": 15,
-    "soal": "#16. What is the minimum number of square sheets ofpaper of any size required to create the ﬁgure? Lines indicatefrontiers between diﬀerent sheets.",
+    "soal": "#16. What is the minimum number of square sheets ofpaper of any size required to create the figure? Lines indicatefrontiers between different sheets.",
     "solusi": "#16. The correct answer is 4. A full sized square ofpaper (yellow), a 3/4 of the whole size square of paper (blue)in the bottom right corner, another 3/4 square of paper(green) in the top left corner and a 1/4 square of paper (red)in the top left corner.",
     "no_urut": 16,
     "folder": "hard1",
@@ -191,7 +191,7 @@
   },
   {
     "": 19,
-    "soal": "#20. One of the numbers in the grid must be circled.Which one?; 93 78 47 61; 100 75 81 87; 28 14 18 19; 35 83 95 72",
+    "soal": "#20. One of the numbers in the grid must be circled. Which one?; ",
     "solusi": "#20. The correct answer is 81. Every circled numbercan be divided by 3.",
     "no_urut": 20,
     "folder": "hard1",
@@ -211,8 +211,8 @@
   },
   {
     "": 21,
-    "soal": "#22. The ﬁgures and the texts are related. What textshould go under the last ﬁgure?; CDE ACF BDF; ABE ?;",
-    "solusi": "#22. The correct answer is ACE. 'A' indicates that theﬁgures overlap, 'B' that are squares, 'C' that are circles, 'D'that the ﬁgures are separated, 'E' that there are three ﬁguresand 'F' that there are two ﬁgures.",
+    "soal": "#22. The figures and the texts are related. What textshould go under the last figure?;",
+    "solusi": "#22. The correct answer is ACE. 'A' indicates that thefigures overlap, 'B' that are squares, 'C' that are circles, 'D'that the figures are separated, 'E' that there are three figuresand 'F' that there are two figures.",
     "no_urut": 22,
     "folder": "hard1",
     "hasil": "",
@@ -231,7 +231,7 @@
   },
   {
     "": 23,
-    "soal": "#24. John's mother's brother's brother-in-law is also? Donot assume that John has any relative that has not beenmentioned.",
+    "soal": "#24. John's mother's brother's brother-in-law is also? Donot assume that John has any relative that has not been mentioned.",
     "solusi": "#24. The correct answer is B. The brother's brother-in-law is John's mother's husband, that is, John's father.",
     "no_urut": 24,
     "folder": "hard1",
@@ -241,7 +241,7 @@
   },
   {
     "": 24,
-    "soal": "#25. 4 hours ago it was as long after 4 AM as it wasbefore 4 PM on the same day . What is the time now? Answerusing the hour (e.g.: 4 PM); Sample clock",
+    "soal": "#25. 4 hours ago it was as long after 4 AM as it wasbefore 4 PM on the same day . What is the time now? Answerusing the hour (e.g.: 4 PM);",
     "solusi": "#25. The correct answer is 2 PM. Determine the hourhalf way between the given times, and then add 4 hours toconvert it to the present time.",
     "no_urut": 25,
     "folder": "hard1",
@@ -251,7 +251,7 @@
   },
   {
     "": 25,
-    "soal": "#26. John needs 12 hours to clean a warehouse and hisfriend needs twice as many . How many hours would it takethem to clean up the warehouse if they worked together?",
+    "soal": "#26. John needs 12 hours to clean a warehouse and his friend needs twice as many . How many hours would it takethem to clean up the warehouse if they worked together?",
     "solusi": "#26. The correct answer is A. John cleans at the speedof 1 / 12 per hour and his friend at 1 / 24. T ogether they willneed 8 hours.",
     "no_urut": 26,
     "folder": "hard1",
@@ -261,7 +261,7 @@
   },
   {
     "": 26,
-    "soal": "#27. What is the probability of getting a '2' or a '6' in asingle throw of an unmodiﬁed 6 sided die? Answer using afraction (e.g.: 1/2).",
+    "soal": "#27. What is the probability of getting a '2' or a '6' in asingle throw of an unmodified 6 sided die? Answer using afraction (e.g.: 1/2).",
     "solusi": "#27. The correct answer is 1/3. There are 2 of 6possibilities.",
     "no_urut": 27,
     "folder": "hard1",
@@ -271,7 +271,7 @@
   },
   {
     "": 27,
-    "soal": "#28. How many small cubes does it take to build thelarge cube below? Answer using a number.",
+    "soal": "#28. How many small cubes does it take to build the large cube below? Answer using a number.",
     "solusi": "#28. The correct answer is 125.",
     "no_urut": 28,
     "folder": "hard1",
@@ -281,7 +281,7 @@
   },
   {
     "": 28,
-    "soal": "#29. On the dartboard below, where would you need tothrow the darts to add 120 points in 5 throws? Answer using alist of numbers (e.g.: 4, 5, 6, 3, 2); 18 202 31",
+    "soal": "#29. On the dartboard below, where would you need to throw the darts to add 120 points in 5 throws? Answer using alist of numbers (e.g.: 4, 5, 6, 3, 2)",
     "solusi": "#29. The correct answer is 18, 20, 20, 31, 31.;",
     "no_urut": 29,
     "folder": "hard1",
@@ -291,7 +291,7 @@
   },
   {
     "": 29,
-    "soal": "#30. Which of the following ﬁgures has the largestarea?",
+    "soal": "#30. Which of the following figures has the largest area?",
     "solusi": "#30. The correct answer is C.",
     "no_urut": 30,
     "folder": "hard1",
@@ -311,8 +311,8 @@
   },
   {
     "": 31,
-    "soal": "#32. Out of 40 people, 10 have brothers, 15 havesisters and 7 have both. How many people have neitherbrothers nor sisters?",
-    "solusi": "#32. The correct answer is 22. It is calculated by takingthe total number of people minus 3 people that have brothersonly, minus 8 that have sisters only and minus 7 that havesisters and brothers.",
+    "soal": "#32. Out of 40 people, 10 have brothers, 15 have sisters and 7 have both. How many people have neither brothers nor sisters?",
+    "solusi": "#32. The correct answer is 22. It is calculated by takingthe total number of people minus 3 people that have brothersonly, minus 8 that have sisters only and minus 7 that have sisters and brothers.",
     "no_urut": 32,
     "folder": "hard1",
     "hasil": "",
@@ -321,7 +321,7 @@
   },
   {
     "": 32,
-    "soal": "#33. The average of three numbers is 45. The averageof two of these numbers is 40. What is the third number?",
+    "soal": "#33. The average of three numbers is 45. The average of two of these numbers is 40. What is the third number?",
     "solusi": "#33. The correct answer is C. It is the result of theoperation: (45 * 3) - (40 * 2).",
     "no_urut": 33,
     "folder": "hard1",
@@ -331,7 +331,7 @@
   },
   {
     "": 33,
-    "soal": "#34. John's father's sister's sister-in-law is also? Do notassume that John has any relative that has not beenmentioned.",
+    "soal": "#34. John's father's sister's sister-in-law is also? Do not assume that John has any relative that has not been mentioned.",
     "solusi": "#34. The correct answer is A. The sister's sister-in-law isJohn's father's wife, that is, John's mother.",
     "no_urut": 34,
     "folder": "hard1",
@@ -341,8 +341,8 @@
   },
   {
     "": 34,
-    "soal": "#35. What is the minimum number of circles to bemoved in order to convert the left ﬁgure into the right ﬁgure?",
-    "solusi": "#35. The correct answer is 5. Move the ﬁrst line to theseventh; move the two circles of the second line to third; andmove ﬁrst and last circles of the ﬁfth line to the sixth.",
+    "soal": "#35. What is the minimum number of circles to be moved in order to convert the left figure into the right figure?",
+    "solusi": "#35. The correct answer is 5. Move the first line to theseventh; move the two circles of the second line to third; andmove first and last circles of the fifth line to the sixth.",
     "no_urut": 35,
     "folder": "hard1",
     "hasil": "",
@@ -351,7 +351,7 @@
   },
   {
     "": 35,
-    "soal": "#36. What is the maximum number of circles (asshown) that ﬁt in the square below?; 8 units8 units1 unit1 unit",
+    "soal": "#36. What is the maximum number of circles (asshown) that fit in the square below?;",
     "solusi": "#36. The correct answer is 68. Using the above layout0.134 units of height are gained per row leaving enoughspace for an additional row.",
     "no_urut": 36,
     "folder": "hard1",
@@ -361,7 +361,7 @@
   },
   {
     "": 36,
-    "soal": "#37. In the grid below, which number should replacethe question mark?; 12 54 15; 1 12 70 7 15; 8 8 10 72 6 1 3; 2 2 5 11 88 6 4 10 4; 4 9 8 82 4 9 7; 8 11 58 3 7; 2 ? 11",
+    "soal": "#37. In the grid below, which number should replace the question mark?; ",
     "solusi": "#37. The correct answer is 26. The number in themiddle of every row is the double of the sum of the othernumbers in the row.",
     "no_urut": 37,
     "folder": "hard1",
@@ -371,7 +371,7 @@
   },
   {
     "": 37,
-    "soal": "#38. Which is the next logical ﬁgure in the sequence?",
+    "soal": "#38. Which is the next logical figure in the sequence?",
     "solusi": "#38. The correct answer is C.",
     "no_urut": 38,
     "folder": "hard1",
@@ -381,8 +381,8 @@
   },
   {
     "": 38,
-    "soal": "#39. Which of the possible answers have the most incommon with the four given ﬁgures?",
-    "solusi": "#39. The correct answer is D. It is the ﬁgure with themost elements in common compared to the given ﬁgures.",
+    "soal": "#39. Which of the possible answers have the most incommon with the four given figures?",
+    "solusi": "#39. The correct answer is D. It is the figure with themost elements in common compared to the given figures.",
     "no_urut": 39,
     "folder": "hard1",
     "hasil": "",
@@ -391,7 +391,7 @@
   },
   {
     "": 39,
-    "soal": "#40. Which circle does not belong to the group? It isnot a sequence of elements.",
+    "soal": "#40. Which circle does not belong to the group? It is not a sequence of elements.",
     "solusi": "#40. The correct answer is A. In all circles the colorslices follow the same order except for this one.",
     "no_urut": 40,
     "folder": "hard1",
@@ -401,7 +401,7 @@
   },
   {
     "": 40,
-    "soal": "#41. In the last ﬁgure, in how many regions is thecircle divided into when all dots are connected?; Has 2 regions Has 4 regions; Has 8 regions",
+    "soal": "#41. In the last figure, in how many regions is the circle divided into when all dots are connected?;",
     "solusi": "#41. The correct answer is 16.;",
     "no_urut": 41,
     "folder": "hard1",
@@ -411,7 +411,7 @@
   },
   {
     "": 41,
-    "soal": "#42. You have two trucks that have a total weight of150 units. If the lighter truck weights 15 units less that half ofthe weight of the heavier truck, what is the weight of thelighter truck?",
+    "soal": "#42. You have two trucks that have a total weight of 150 units. If the lighter truck weights 15 units less that half ofthe weight of the heavier truck, what is the weight of the lighter truck?",
     "solusi": "#42. The correct answer is D. The heavier truck weights110 and the lighter 40.",
     "no_urut": 42,
     "folder": "hard1",
@@ -421,8 +421,8 @@
   },
   {
     "": 42,
-    "soal": "#43. Which is the next logical ﬁgure in the sequence?",
-    "solusi": "#43. The correct answer is C. From ﬁrst ﬁgure, the topcircle advances by two positions clockwise, while the left circlegoes backwards one position.",
+    "soal": "#43. Which is the next logical figure in the sequence?",
+    "solusi": "#43. The correct answer is C. From first figure, the topcircle advances by two positions clockwise, while the left circlegoes backwards one position.",
     "no_urut": 43,
     "folder": "hard1",
     "hasil": "",
@@ -431,7 +431,7 @@
   },
   {
     "": 43,
-    "soal": "#44. How many squares of any size do you count in theﬁgure below?",
+    "soal": "#44. How many squares of any size do you count in thefigure below?",
     "solusi": "#44. The correct answer is 30. There are 16 singlesquares, 9 squares made by 4 single squares, 4 squares madeby 9 single squares and 1 square made by 16 single squares.",
     "no_urut": 44,
     "folder": "hard1",
@@ -441,7 +441,7 @@
   },
   {
     "": 44,
-    "soal": "#45. John's age is nowadays 2 times his son's age. 12years ago, John was 3 times as old as his son. How old is John'sson nowadays?",
+    "soal": "#45. John's age is nowadays 2 times his son's age. 12 years ago, John was 3 times as old as his son. How old is John's son nowadays?",
     "solusi": "#45. The correct answer is 24. John's age (variable x) isnowadays 2 times his son's age (variable y), that is x = 2y,and 12 years ago, John was 3 times as old as his son: x - 12 =(y - 12) * 3.",
     "no_urut": 45,
     "folder": "hard1",
@@ -451,7 +451,7 @@
   },
   {
     "": 45,
-    "soal": "#46. You have 600 monetary units in your bankaccount at 10% interest compounded annually . How muchmoney will you have at the end of 2 years?;",
+    "soal": "#46. You have 600 monetary units in your bankaccount at 10% interest compounded annually . How much money will you have at the end of 2 years?;",
     "solusi": "#46. The correct answer is 726. Compound interest ispaid on the principal plus any past interest accumulated.",
     "no_urut": 46,
     "folder": "hard1",
@@ -461,8 +461,8 @@
   },
   {
     "": 46,
-    "soal": "#47. How many line segments in total are in the ﬁguresbelow? A line segment is a line between two points with nocrossing lines.",
-    "solusi": "#47. The correct answer is 36. There are 15 lines in theﬁgure to the left and 21 in the ﬁgure to the right.",
+    "soal": "#47. How many line segments in total are in the figures below? A line segment is a line between two points with no crossing lines.",
+    "solusi": "#47. The correct answer is 36. There are 15 lines in thefigure to the left and 21 in the figure to the right.",
     "no_urut": 47,
     "folder": "hard1",
     "hasil": "",
@@ -471,7 +471,7 @@
   },
   {
     "": 47,
-    "soal": "#48. Given two integer numbers x and y, if x is evenand y odd, which of the following expressions gives always anodd result?",
+    "soal": "#48. Given two integer numbers x and y, if x is even and y odd, which of the following expressions gives always anodd result?",
     "solusi": "#48. The correct answer is C. Multiplication of two evennumbers always produces an even number, so x multiplied by2 is even. Adding an odd number (y) to that even numberalways produces an odd number.",
     "no_urut": 48,
     "folder": "hard1",
@@ -481,7 +481,7 @@
   },
   {
     "": 48,
-    "soal": "#49. Which of the following ﬁgures cannot be drawnwithout crossing any previous lines nor lifting the pencil?",
+    "soal": "#49. Which of the following figures cannot be drawn without crossing any previous lines nor lifting the pencil?",
     "solusi": "#49. The correct answer is A.",
     "no_urut": 49,
     "folder": "hard1",
@@ -511,8 +511,8 @@
   },
   {
     "": 51,
-    "soal": "#52. A train leaves the station traveling at 40 mph. 4hours later a second train leaves the station traveling in thesame direction at 50 mph. How many hours does it take thesecond train, since it starts moving, to overtake the ﬁrst train?",
-    "solusi": "#52. The correct answer is 16. You can calculate theanswer by multiplying the speed of the ﬁrst train by the timeand dividing it by the diﬀerence of speeds.",
+    "soal": "#52. A train leaves the station traveling at 40 mph. 4 hours later a second train leaves the station traveling in thesame direction at 50 mph. How many hours does it take thesecond train, since it starts moving, to overtake the first train?",
+    "solusi": "#52. The correct answer is 16. You can calculate theanswer by multiplying the speed of the first train by the timeand dividing it by the difference of speeds.",
     "no_urut": 52,
     "folder": "hard1",
     "hasil": "",
@@ -521,7 +521,7 @@
   },
   {
     "": 52,
-    "soal": "#53. I go south on an evening when the sun shines. T owhich side of me will my shadow fall?",
+    "soal": "#53. I go south on an evening when the sun shines. To which side of me will my shadow fall?",
     "solusi": "#53. The correct answer is B. If I go south then east isto my left and in the evening the shadow falls east.;",
     "no_urut": 53,
     "folder": "hard1",
@@ -531,8 +531,8 @@
   },
   {
     "": 53,
-    "soal": "#54. Which square completes the ﬁgure below?",
-    "solusi": "#54. The correct answer is B. In every row the thirdsquare is made by ﬂipping the ﬁrst square and superimposingit on the second square, followed by removing the matchinglines.",
+    "soal": "#54. Which square completes the figure below?",
+    "solusi": "#54. The correct answer is B. In every row the thirdsquare is made by ﬂipping the first square and superimposingit on the second square, followed by removing the matchinglines.",
     "no_urut": 54,
     "folder": "hard1",
     "hasil": "",
@@ -541,7 +541,7 @@
   },
   {
     "": 54,
-    "soal": "#55. A ﬁle is protected by a password formed by a 3digits represented in base 8 (ranging from 0 to 7). How manydiﬀerent passwords can you have?",
+    "soal": "#55. A file is protected by a password formed by a 3 digits represented in base 8 (ranging from 0 to 7). How many different passwords can you have?",
     "solusi": "#55. The correct answer is 512. Every digit has 8possibilities. The total number of possibilities is 8 at the powerof 3.",
     "no_urut": 55,
     "folder": "hard1",
@@ -551,7 +551,7 @@
   },
   {
     "": 55,
-    "soal": "#56. Which larger shape can you make combining theﬁrst two ﬁgures?",
+    "soal": "#56. Which larger shape can you make combining the first two figures?",
     "solusi": "#56. The correct answer is D.",
     "no_urut": 56,
     "folder": "hard1",
@@ -561,7 +561,7 @@
   },
   {
     "": 56,
-    "soal": "#57. The next sequence follows a logic. What numbershould replace the question mark?; 5, -6, 16, -28, 60, ?",
+    "soal": "#57. The next sequence follows a logic. What number should replace the question mark?; 5, -6, 16, -28, 60, ?",
     "solusi": "#57. The correct answer is -116. Every number in thesequence is the result of subtracting 2 from the previousnumber and multiplying it by -2.",
     "no_urut": 57,
     "folder": "hard1",
@@ -571,8 +571,8 @@
   },
   {
     "": 57,
-    "soal": "#58. What ﬁgure should replace the question mark?",
-    "solusi": "#58. The correct answer is C. Superpose the ﬁrst andsecond ﬁgures and remove the lines that they have incommon, then rotate the resulting ﬁgure 45 degrees.",
+    "soal": "#58. What figure should replace the question mark?",
+    "solusi": "#58. The correct answer is C. Superpose the first andsecond figures and remove the lines that they have incommon, then rotate the resulting figure 45 degrees.",
     "no_urut": 58,
     "folder": "hard1",
     "hasil": "",
@@ -581,7 +581,7 @@
   },
   {
     "": 58,
-    "soal": "#59. In a small town, 50% of the inhabitants have a carand 20% have a car and are males. What percentage of thepopulation are females and have a car?",
+    "soal": "#59. In a small town, 50% of the inhabitants have a carand 20% have a car and are males. What percentage of the population are females and have a car?",
     "solusi": "#59. The correct answer is A. 30% (50 - 20) of theinhabitants are women and have a car.",
     "no_urut": 59,
     "folder": "hard1",
@@ -591,7 +591,7 @@
   },
   {
     "": 59,
-    "soal": "#60. How much weight is needed at the point indicatedby the question mark to balance the lever?; ?4",
+    "soal": "#60. How much weight is needed at the point indicated by the question mark to balance the lever?;",
     "solusi": "#60. The correct answer is 16. A lever is in equilibriumwhen the objects placed on it are at a distances reciprocallyproportional to their weights.",
     "no_urut": 60,
     "folder": "hard1",
@@ -601,7 +601,7 @@
   },
   {
     "": 60,
-    "soal": "#61. Which three pieces can you use together to builda triangle? Answer using the three ﬁgure names, e.g.: ABC.;",
+    "soal": "#61. Which three pieces can you use together to builda triangle? Answer using the three figure names, e.g.: ABC.;",
     "solusi": "#61. The correct answer is DCA.",
     "no_urut": 61,
     "folder": "hard1",
@@ -611,8 +611,8 @@
   },
   {
     "": 61,
-    "soal": "#62. T o what number should the large handle of the'Figure D' clock point? Answer using numbers.;",
-    "solusi": "#62. The correct answer is 3. Starting from the ﬁrstclock, add 5 to the number obtained by appending the valuesto which the hands point. For example, the value of the handsfor 'Figure D' is 63 (58 + 5).",
+    "soal": "#62. To what number should the large handle of the 'Figure D' clock point? Answer using numbers.;",
+    "solusi": "#62. The correct answer is 3. Starting from the firstclock, add 5 to the number obtained by appending the valuesto which the hands point. For example, the value of the handsfor 'Figure D' is 63 (58 + 5).",
     "no_urut": 62,
     "folder": "hard1",
     "hasil": "",
@@ -621,7 +621,7 @@
   },
   {
     "": 62,
-    "soal": "#63. A ﬁle is protected by a password formed by a 4digits number represented in base 10 (ranging from 0 to 9).How many diﬀerent passwords can you have?",
+    "soal": "#63. A file is protected by a password formed by a 4 digits number represented in base 10 (ranging from 0 to 9). How many different passwords can you have?",
     "solusi": "#63. The correct answer is 10000. Every digit has 10possibilities. The total number of possibilities is 10 at thepower of 4.",
     "no_urut": 63,
     "folder": "hard1",
@@ -631,7 +631,7 @@
   },
   {
     "": 63,
-    "soal": "#64. In a horse race there are people and horses. Youcount 88 eyes and 128 legs. How many horses are present?",
+    "soal": "#64. In a horse race there are people and horses. You count 88 eyes and 128 legs. How many horses are present?",
     "solusi": "#64. The correct answer is 20. Every person has twolegs and every horse four (2 * 24 + 20 * 4). Every person andevery horse have also two eyes (2 * 24 + 2 * 20).",
     "no_urut": 64,
     "folder": "hard1",
@@ -641,7 +641,7 @@
   },
   {
     "": 64,
-    "soal": "#65. Looking horizontally and vertically to the lines ofthe grid below, which is the number 2 places away from itselfmultiplied by 2 and 2 places away from itself plus 2?; 3; 38; 43; 48; 44; 32; 24; 2544; 4; 30; 1; 19; 26; 45; 3145; 4; 25; 48; 9; 29; 44; 76; 18; 39; 27; 16; 38; 44; 3738; 42; 1; 44; 34; 36; 14; 2221; 7; 32; 36; 9; 16; 29; 1744; 84; 20; 38; 1; 45; 19; 2930; 21; 14; 9; 10; 27; 21; 2",
+    "soal": "#65. Looking horizontally and vertically to the lines ofthe grid below, which is the number 2 places away from itself multiplied by 2 and 2 places away from itself plus 2?",
     "solusi": "#65. The correct answer is 42. The number is locatedat row 2, column 5.;",
     "no_urut": 65,
     "folder": "hard1",
@@ -651,7 +651,7 @@
   },
   {
     "": 65,
-    "soal": "#66. How many triangles of any size do you count inthe ﬁgure below?;",
+    "soal": "#66. How many triangles of any size do you count in the figure below?;",
     "solusi": "#66. The correct answer is 16. The triangles are madeby connecting the following points: bdc, dcf, dfg, abd, ade,edg, acg, abg, bcg, afg, ecg, acd, acf, ace, adg, cdg.",
     "no_urut": 66,
     "folder": "hard1",
@@ -661,7 +661,7 @@
   },
   {
     "": 66,
-    "soal": "#67. John's shop had sales of 110 monetary units. Thiswas an increase of 25% over last month. What were lastmonth sales?;",
+    "soal": "#67. John's shop had sales of 110 monetary units. This was an increase of 25% over last month. What were last month sales?;",
     "solusi": "#67. The correct answer is 88.",
     "no_urut": 67,
     "folder": "hard1",
@@ -671,8 +671,8 @@
   },
   {
     "": 67,
-    "soal": "#68. The numbers in the grid below follow a pattern.Which number should replace the question mark?; 97265; 91010100; 103434; 7106?",
-    "solusi": "#68. The correct answer is 76. The fourth row iscalculated by multiplying the ﬁrst two rows and adding thethird.",
+    "soal": "#68. The numbers in the grid below follow a pattern. Which number should replace the question mark?;",
+    "solusi": "#68. The correct answer is 76. The fourth row iscalculated by multiplying the first two rows and adding thethird.",
     "no_urut": 68,
     "folder": "hard1",
     "hasil": "",
@@ -681,8 +681,8 @@
   },
   {
     "": 68,
-    "soal": "#69. How many four sided ﬁgures do you count in theﬁgure below?",
-    "solusi": "#69. The correct answer is 13. The four sided ﬁguresare made by connecting the following points: abed, dehg,bcfe, eﬁh, acfd, dﬁg, abhg, bcih, acig, aghe, aefc, deig, bcie.",
+    "soal": "#69. How many four sided figures do you count in thefigure below?",
+    "solusi": "#69. The correct answer is 13. The four sided figuresare made by connecting the following points: abed, dehg,bcfe, efih, acfd, dfig, abhg, bcih, acig, aghe, aefc, deig, bcie.",
     "no_urut": 69,
     "folder": "hard1",
     "hasil": "",
@@ -691,7 +691,7 @@
   },
   {
     "": 69,
-    "soal": "#70. What percentage of the ﬁgure is colored?;",
+    "soal": "#70. What percentage of the figure is colored?;",
     "solusi": "#70. The correct answer is 35.",
     "no_urut": 70,
     "folder": "hard1",
@@ -701,7 +701,7 @@
   },
   {
     "": 70,
-    "soal": "#71. How much weight is needed at the point indicatedby the question mark to balance the lever?; ?6",
+    "soal": "#71. How much weight is needed at the point indicated by the question mark to balance the lever?;",
     "solusi": "#71. The correct answer is 12. A lever is in equilibriumwhen the objects placed on it are at a distances reciprocallyproportional to their weights.",
     "no_urut": 71,
     "folder": "hard1",
@@ -711,8 +711,8 @@
   },
   {
     "": 71,
-    "soal": "#72. Which of the following ﬁgures does not belong tothe group?",
-    "solusi": "#72. The correct answer is E. It is the only ﬁgure withall lines of equal length.",
+    "soal": "#72. Which of the following figures does not belong tothe group?",
+    "solusi": "#72. The correct answer is E. It is the only figure withall lines of equal length.",
     "no_urut": 72,
     "folder": "hard1",
     "hasil": "",
@@ -721,7 +721,7 @@
   },
   {
     "": 72,
-    "soal": "#73. How many two digit numbers occur where theﬁrst digit is larger than the second (e.g.: 20 and 21)?",
+    "soal": "#73. How many two digit numbers occur where thefirst digit is larger than the second (e.g.: 20 and 21)?",
     "solusi": "#73. The correct answer is 45. The numbers are: 10,20, 21, 30, 31, 32, 40, 41, 42, 43, 50, 51, 52, 53, 54, 60, 61,62, 63, 64, 65, 70, 71, 72, 73, 74, 75, 76, 80, 81, 82, 83, 84,85, 86, 87, 90, 91, 92, 93, 94, 95, 96, 97, 98.",
     "no_urut": 73,
     "folder": "hard1",
@@ -731,8 +731,8 @@
   },
   {
     "": 73,
-    "soal": "#74. What ﬁgure completes the set below?",
-    "solusi": "#74. The correct answer is A. It is the ﬁgure thatcompletes all possible combinations with four blocks withouttaking into account rotations.",
+    "soal": "#74. What figure completes the set below?",
+    "solusi": "#74. The correct answer is A. It is the figure thatcompletes all possible combinations with four blocks withouttaking into account rotations.",
     "no_urut": 74,
     "folder": "hard1",
     "hasil": "",
@@ -741,7 +741,7 @@
   },
   {
     "": 74,
-    "soal": "#75. There are 5 tennis games played simultaneously .How many diﬀerent forecasts are possible?",
+    "soal": "#75. There are 5 tennis games played simultaneously. How many different forecasts are possible?",
     "solusi": "#75. The correct answer is 32. Every game is anindependent event with 2 possible results. The total numberof possibilities is 2 at the power of 5.",
     "no_urut": 75,
     "folder": "hard1",
@@ -751,7 +751,7 @@
   },
   {
     "": 75,
-    "soal": "#76. Wrapping an anniversary present costs onemonetary unit. The anniversary present costs 20 monetaryunits more than the cost to wrap it. How much does it cost toboth purchase and wrap the present?",
+    "soal": "#76. Wrapping an anniversary present costs onemonetary unit. The anniversary present costs 20 monetary units more than the cost to wrap it. How much does it cost to both purchase and wrap the present?",
     "solusi": "#76. The correct answer is 22. It is the cost of thepresent, 21 monetary units, plus one monetary unit of thewrapping.",
     "no_urut": 76,
     "folder": "hard1",
@@ -771,7 +771,7 @@
   },
   {
     "": 77,
-    "soal": "#78. Which element does not belong to the group? It isnot related to any arithmetical of the numbers.",
+    "soal": "#78. Which element does not belong to the group? It is not related to any arithmetical of the numbers.",
     "solusi": "#78. The correct answer is A. In all the other equationsthe digits from the left side also appear on the right side.",
     "no_urut": 78,
     "folder": "hard1",
@@ -781,7 +781,7 @@
   },
   {
     "": 78,
-    "soal": "#79. If all painters are artists and some citizens ofBarcelona are artists. Which of the following conclusions iscorrect?",
+    "soal": "#79. If all painters are artists and some citizens of Barcelona are artists. Which of the following conclusions is correct?",
     "solusi": "#79. The correct answer is D.",
     "no_urut": 79,
     "folder": "hard1",
@@ -791,7 +791,7 @@
   },
   {
     "": 79,
-    "soal": "#80. T wo men starting at the same point walk inopposite directions for 12 feet. Both turn left and walk another9 feet. What is the distance between them?",
+    "soal": "#80. Two men starting at the same point walk inopposite directions for 12 feet. Both turn left and walk another 9 feet. What is the distance between them?",
     "solusi": "#80. The correct answer is B. Using the Pythagoreantheorem, the solution is 2 by the square root of (12^2 +9^2).",
     "no_urut": 80,
     "folder": "hard1",
@@ -801,7 +801,7 @@
   },
   {
     "": 80,
-    "soal": "#81. John is 46 years old. His son is 8 years youngerthan half of John's age. How old is John's son?",
+    "soal": "#81. John is 46 years old. His son is 8 years younger than half of John's age. How old is John's son?",
     "solusi": "#81. The correct answer is 15. John's son age isnowadays half of John's age minus 8, that is, (46 / 2) - 8.",
     "no_urut": 81,
     "folder": "hard1",
@@ -811,7 +811,7 @@
   },
   {
     "": 81,
-    "soal": "#82. A girl once said: 2 days ago I was 18 years old.Next year I will be 21 years old. Can this be true? Answer A orB.; A) YesB) NoChoose one of the following:;",
+    "soal": "#82. A girl once said: 2 days ago I was 18 years old. Next year I will be 21 years old. Can this be true? Answer A or B.;",
     "solusi": "#82. The correct answer is A. She was born 31st ofDecember and she said this on 1st of January .",
     "no_urut": 82,
     "folder": "hard1",
@@ -821,7 +821,7 @@
   },
   {
     "": 82,
-    "soal": "#83. What is the next logical sequence of objects in thelast column?",
+    "soal": "#83. What is the next logical sequence of objects in the last column?",
     "solusi": "#83. The correct answer is C. It is the only combinationthat you can build with the given elements without repeatingthem.",
     "no_urut": 83,
     "folder": "hard1",
@@ -831,7 +831,7 @@
   },
   {
     "": 83,
-    "soal": "#84. When you fold the ﬁgure below as a cube, whichface on the ﬁgure is opposite the face with a 1 drawn on it?Answer the number written on the face.; 1 2; 3 4 5; 6",
+    "soal": "#84. When you fold the figure below as a cube, whichface on the figure is opposite the face with a 1 drawn on it? Answer the number written on the face.;",
     "solusi": "#84. The correct answer is 4.",
     "no_urut": 84,
     "folder": "hard1",
@@ -841,7 +841,7 @@
   },
   {
     "": 84,
-    "soal": "#85. The letters around the squares follow a pattern.Which letter should replace the question mark in the lastsquare?; C GKO; B FJNA; EI?",
+    "soal": "#85. The letters around the squares follow a pattern.Which letter should replace the question mark in the last square?;",
     "solusi": "#85. The correct answer is M. Every letter is calculatedby taking the alphabetical position of the previous characterand adding 4 to it in order to get the position of the nextletter.",
     "no_urut": 85,
     "folder": "hard1",
@@ -861,7 +861,7 @@
   },
   {
     "": 86,
-    "soal": "#87. Using triangles only, how many triangles areneeded in the right part of the last ﬁgure to keep it balanced?; ?",
+    "soal": "#87. Using triangles only, how many triangles areneeded in the right part of the last figure to keep it balanced?;",
     "solusi": "#87. The correct answer is 7. Every circle is equivalentto two triangles and every square to three triangles.",
     "no_urut": 87,
     "folder": "hard1",
@@ -871,8 +871,8 @@
   },
   {
     "": 87,
-    "soal": "#88. How many boxes measuring 1 x 1 x 0.5 can be ﬁtinto a container measuring 6 x 5 x 6?; ContainerBox",
-    "solusi": "#88. The correct answer is 360. You can ﬁt 6 * 5 * 6 * 2boxes.",
+    "soal": "#88. How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 x 5 x 6?;",
+    "solusi": "#88. The correct answer is 360. You can fit 6 * 5 * 6 * 2boxes.",
     "no_urut": 88,
     "folder": "hard1",
     "hasil": "",
@@ -881,7 +881,7 @@
   },
   {
     "": 88,
-    "soal": "#89. John needs 24 hours to clean a warehouse and hisfriend needs half as many . How many hours would it takethem to clean up the warehouse if they worked together?",
+    "soal": "#89. John needs 24 hours to clean a warehouse and his friend needs half as many . How many hours would it takethem to clean up the warehouse if they worked together?",
     "solusi": "#89. The correct answer is A. John cleans at the speedof 1 / 24 per hour and his friend at 1 / 12. T ogether they willneed 8 hours.;",
     "no_urut": 89,
     "folder": "hard1",
@@ -892,7 +892,7 @@
   {
     "": 89,
     "soal": "#90. A group of people, spaced out evenly, are sittingat a round table. How many people are there if the 5th personsits directly across from the 19th?; Two people in the table sitting across from each other;",
-    "solusi": "#90. The correct answer is 28. Subtracting the twopositions you ﬁnd out how many people are seated half wayaround the table. Doubling this number leaves you with thetotal amount of people.",
+    "solusi": "#90. The correct answer is 28. Subtracting the twopositions you find out how many people are seated half wayaround the table. Doubling this number leaves you with thetotal amount of people.",
     "no_urut": 90,
     "folder": "hard1",
     "hasil": "",
@@ -902,7 +902,7 @@
   {
     "": 90,
     "soal": "#91. All attendees to a party are introduced to oneanother. 21 handshakes are made in total. How many peopleare attending the party?",
-    "solusi": "#91. The correct answer is 7. Using n as the totalnumber of people, the ﬁrst person handshakes n-1 people, thesecond n-2 people, etc. The result is the sum of the ﬁrst n-1consecutive numbers: 1+2+3+...+(n-1).",
+    "solusi": "#91. The correct answer is 7. Using n as the totalnumber of people, the first person handshakes n-1 people, thesecond n-2 people, etc. The result is the sum of the first n-1consecutive numbers: 1+2+3+...+(n-1).",
     "no_urut": 91,
     "folder": "hard1",
     "hasil": "",
@@ -911,7 +911,7 @@
   },
   {
     "": 91,
-    "soal": "#92. In a tennis tournament, in every match a player iseliminated after losing to a single opponent. How manymatches does it take to determine the winner of a tennistournament that starts with 56 players?",
+    "soal": "#92. In a tennis tournament, in every match a player is eliminated after losing to a single opponent. How manymatches does it take to determine the winner of a tennis tournament that starts with 56 players?",
     "solusi": "#92. The correct answer is 55. In every match youeliminate one player. Therefore, the result is the total numberof player minus one.",
     "no_urut": 92,
     "folder": "hard1",
@@ -921,7 +921,7 @@
   },
   {
     "": 92,
-    "soal": "#93. What is the minimum number of square sheets ofpaper of any size required to create the ﬁgure? Lines indicatefrontiers between diﬀerent sheets.",
+    "soal": "#93. What is the minimum number of square sheets ofpaper of any size required to create the figure? Lines indicate frontiers between different sheets.",
     "solusi": "#93. The correct answer is 4. A full sized square ofpaper (yellow), a 3/4 of the whole size square of paper (blue)in the bottom right corner, another 3/4 square of paper(green) in the top left corner and a 1/4 square of paper (red)in the top left corner.",
     "no_urut": 93,
     "folder": "hard1",
@@ -941,7 +941,7 @@
   },
   {
     "": 94,
-    "soal": "#95. Which number should replace the question markbelow?; 15 14 35 6 70 3; 42 5 7 30 21 ?",
+    "soal": "#95. Which number should replace the question mark below?;",
     "solusi": "#95. The correct answer is 10. The result of multiplyingthe two numbers inside every triangle is 210.",
     "no_urut": 95,
     "folder": "hard1",
@@ -951,7 +951,7 @@
   },
   {
     "": 95,
-    "soal": "#96. If the circles represented by the arcs below werecompleted, which circle would have the largest diameter?",
+    "soal": "#96. If the circles represented by the arcs below were completed, which circle would have the largest diameter?",
     "solusi": "#96. The correct answer is C. Less curved is the arc,the larger the circle is.",
     "no_urut": 96,
     "folder": "hard1",
@@ -961,7 +961,7 @@
   },
   {
     "": 96,
-    "soal": "#97. One of the numbers in the grid must be circled.Which one?; 20 84 32 37; 54 65 93 52; 15 83 8 7; 87 6 3 1",
+    "soal": "#97. One of the numbers in the grid must be circled. Which one?; 20 84 32 37; 54 65 93 52; 15 83 8 7; 87 6 3 1",
     "solusi": "#97. The correct answer is 6. Every circled number canbe divided by 3.",
     "no_urut": 97,
     "folder": "hard1",
@@ -971,7 +971,7 @@
   },
   {
     "": 97,
-    "soal": "#98. 1991 is a palindromic year as 2002 is, a gap of 11years. What are the next two consecutive palindromic yearsafter 2002 with the same gap? Answer using two numbers(e.g.: 1991 and 2002).",
+    "soal": "#98. 1991 is a palindromic year as 2002 is, a gap of 11 years. What are the next two consecutive palindromic years after 2002 with the same gap? Answer using two numbers(e.g.: 1991 and 2002).",
     "solusi": "#98. The correct answer is 2992 and 3003. From year1000 to year 10000, palindrome years occur at 110 yearintervals except for the end of each millennium that occur at a11 years interval.",
     "no_urut": 98,
     "folder": "hard1",
@@ -981,8 +981,8 @@
   },
   {
     "": 98,
-    "soal": "#99. The ﬁgures and the texts are related. What textshould go under the last ﬁgure?; CDE ACF BDF; ABE ?",
-    "solusi": "#99. The correct answer is CDF. 'A' indicates that theﬁgures overlap, 'B' that are squares, 'C' that are circles, 'D'that the ﬁgures are separated, 'E' that there are three ﬁguresand 'F' that there are two ﬁgures.",
+    "soal": "#99. The figures and the texts are related. What text should go under the last figure?;",
+    "solusi": "#99. The correct answer is CDF. 'A' indicates that thefigures overlap, 'B' that are squares, 'C' that are circles, 'D'that the figures are separated, 'E' that there are three figuresand 'F' that there are two figures.",
     "no_urut": 99,
     "folder": "hard1",
     "hasil": "",
@@ -991,7 +991,7 @@
   },
   {
     "": 99,
-    "soal": "#100. The slices below have some kind of relation.Which is the missing slice in the circle below?",
+    "soal": "#100. The slices below have some kind of relation. Which is the missing slice in the circle below?",
     "solusi": "#100. The correct answer is A. All numbers of eachslice, when added to the ones of the opposite slice, add always9.",
     "no_urut": 100,
     "folder": "hard1",

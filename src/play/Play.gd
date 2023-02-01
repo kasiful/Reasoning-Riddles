@@ -1,5 +1,11 @@
 extends Control
 
+var minta_hint = 0
+var soal
+var level
+var no_urut
+
+
 func read_json(path: String):
 	var file = File.new()
 	file.open(path, File.READ)
@@ -9,57 +15,100 @@ func read_json(path: String):
 	json_data = JSON.parse(json_data).result
 	file.close()
 	return json_data
+	
+func correct():
+	var status = read_json("user://"+level+".json")
+	status[no_urut].status = 1
+	
+	var file = File.new()
+	file.open("user://"+level+".json", File.WRITE)
+	file.store_line(JSON.print(status))
+	print("true, saved to database")
+	
+	$CorrectPopup.visible = true
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	
-	$BackButton.connect("button_down", self, "action_back")
+	$BackButton.connect("pressed", self, "action_back")
 	
 	var data_temp = read_json("user://temp.json")
-	print(data_temp.level)
+	level = data_temp.level
+	no_urut = data_temp.no_urut
 	
 	var judul = {
 		"easy1": "Easy",
 		"medium1": "Medium",
 		"hard1": "Hard"
 	}
-	$Judul.text = judul[data_temp.level]+" "+str(data_temp.no_urut+1)
+	$Judul.text = judul[level]+" "+str(no_urut+1)
 	
-#	var banksoal = read_json("res://dataset/soal/"+data_temp.level+".json")
-
-	print("res://dataset/soal/"+data_temp.level+".gd")
-	
-	var banksoal = load("res://dataset/soal/"+data_temp.level+".gd").new()
+	var banksoal = load("res://dataset/soal/"+level+".gd").new()
 	banksoal = banksoal.get_data_json()
 	
-	print(banksoal[data_temp.no_urut])
-	
-	var soal = banksoal[data_temp.no_urut]
-	
-#	$VBoxContainer/Gambar.texture = load("res://dataset/"+soal.folder+"/"+soal.gambar)
-#	{:8, folder:easy1, gambar:8_easy1.jpg, hasil:0, jawaban:33, no_urut:9, soal:#9. What is the result of the equation below?; 5 * 5 + 5 * 2 - 2 = ?, solusi:#9. The correct answer is 33. The order of arithmeticaloperations is always as follows: exponents and roots,multiplication and division, addition and subtraction.}
+	soal = banksoal[no_urut]
 
-	
 	$VBoxContainer/Soal.text = soal.soal
-#	$VBoxContainer/Gambar.texture
 	
 	var img_texture_path = "res://dataset/gambar/"+soal.folder+"/"+soal.gambar
 	var img_texture: StreamTexture = load(img_texture_path)
-#	$AvatarSP.texture = img_texture
 	$VBoxContainer/Gambar.texture = img_texture
 	
-#	var texture = ImageTexture.new()
-#	var image = Image.new()
-#	image.load("res://dataset/gambar/"+soal.folder+"/"+soal.gambar)
-#	texture.create_from_image(image)
+	$HintPopup2/Answer.text = String(soal.solusi)
 	
-#	$VBoxContainer/Gambar.texture = texture
-#	$VBoxContainer/Gambar.stretch_mode = StretchMode
+	$HintButton.connect("pressed", self, "action_hint")
+	$HintPopup/AdsButton.connect("pressed", self, "action_get_ads")
+	$HintPopup/NoThanksButton.connect("pressed", self, "action_nothanks")
+	$HintPopup2/NoThanksButton.connect("pressed", self, "action_nothanks")
+	$SubmitButton.connect("pressed", self, "action_submit")
 	
+	$CorrectPopup/NextButton.connect("pressed", self, "action_next")
+	$CorrectPopup/BackButton2.connect("pressed", self, "action_back")
 	
+##########################################
 	
 func action_back():
 	get_tree().change_scene("res://src/play/SelectLevel.tscn")
+	
+func action_submit():
+	
+	if String($AnswerInputText.text).to_lower() == String(soal.jawaban).to_lower():
+		correct()
+	else:
+		$AnswerLabel.text = "Sorry, try again :D"
+		yield(get_tree().create_timer(1.0), "timeout")
+		$AnswerLabel.text = "Answer"
+
+func action_hint():
+	if minta_hint == 0:
+		$HintPopup.visible = true
+		$HintPopup2.visible = false
+	else:
+		$HintPopup.visible = false
+		$HintPopup2.visible = true
+		
+
+func action_get_ads():
+	print("memainkan ads...")
+	minta_hint = 1
+	action_hint()
+
+func action_nothanks():
+	$HintPopup.visible = false
+	$HintPopup2.visible = false
+
+func action_next():
+	var temp = {
+		"level": level,
+		"no_urut": min(no_urut+1, 99)
+	}
+	
+	var file = File.new()
+	file.open("user://temp.json", File.WRITE)
+	
+	file.store_line(JSON.print(temp))
+	file.close()
+#	print("listening ", level, no_urut)
+	get_tree().change_scene("res://src/play/Play.tscn")
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
