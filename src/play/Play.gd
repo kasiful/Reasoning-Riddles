@@ -82,14 +82,21 @@ func action_hint():
 	if minta_hint == 0:
 		$HintPopup.visible = true
 		$HintPopup2.visible = false
+	elif minta_hint == 1:
+		$HintPopup.visible = true
+		$HintPopup2.visible = false
+		
+		$HintPopup/JudulHint.text = "Hint:\n"+String(soal.solusi).split(".")[2]
+		$HintPopup/AdsButton.text = "Small ads for solution"
+		
 	else:
 		$HintPopup.visible = false
 		$HintPopup2.visible = true
 		
 
 func action_get_ads():
-	print("memainkan ads...")
-	minta_hint = 1
+	minta_hint += 1
+	print("memainkan ads ", String(minta_hint))
 	action_hint()
 
 func action_nothanks():
@@ -109,7 +116,6 @@ func action_next():
 	file.close()
 #	print("listening ", level, no_urut)
 	get_tree().change_scene("res://src/play/Play.tscn")
-
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):

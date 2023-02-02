@@ -30,6 +30,7 @@ size = 24
 font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=7]
+size = 24
 font_data = ExtResource( 1 )
 
 [sub_resource type="Theme" id=8]
@@ -101,9 +102,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 40.0
-margin_top = -80.0
+margin_top = -136.0
 margin_right = -216.0
-margin_bottom = -32.0
+margin_bottom = -88.0
 custom_fonts/font = SubResource( 4 )
 
 [node name="AnswerLabel" type="Label" parent="."]
@@ -111,9 +112,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 40.0
-margin_top = -120.0
+margin_top = -176.0
 margin_right = -40.0
-margin_bottom = -86.0
+margin_bottom = -142.0
 custom_fonts/font = SubResource( 5 )
 text = "Answer"
 
@@ -122,9 +123,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 408.0
-margin_top = -80.0
+margin_top = -136.0
 margin_right = -39.0
-margin_bottom = -32.0
+margin_bottom = -88.0
 custom_fonts/font = SubResource( 6 )
 text = "Submit"
 
@@ -152,25 +153,31 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 margin_left = -200.0
-margin_top = -50.0
+margin_top = 31.0
 margin_right = 200.0
-margin_bottom = 50.0
+margin_bottom = 131.0
 rect_min_size = Vector2( 400, 100 )
 mouse_filter = 1
 custom_fonts/font = SubResource( 1 )
 shortcut_in_tooltip = false
-text = "Watch Video Ads for Hint"
+text = "Watch  Ads for Hint"
 
-[node name="Judul" type="Label" parent="HintPopup"]
-margin_left = 192.0
-margin_top = 334.0
-margin_right = 401.0
-margin_bottom = 386.0
+[node name="JudulHint" type="Label" parent="HintPopup"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -200.0
+margin_top = -208.0
+margin_right = 200.0
+margin_bottom = 16.0
 rect_pivot_offset = Vector2( 126, 26 )
+theme = SubResource( 8 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
-custom_fonts/font = SubResource( 2 )
-text = "Need Help?"
+text = "Need help? "
 align = 1
+valign = 1
+autowrap = true
 
 [node name="NoThanksButton" type="Button" parent="HintPopup"]
 anchor_left = 0.5
@@ -178,9 +185,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 margin_left = -200.0
-margin_top = 78.0
+margin_top = 159.0
 margin_right = 200.0
-margin_bottom = 178.0
+margin_bottom = 259.0
 rect_min_size = Vector2( 400, 100 )
 mouse_filter = 1
 custom_fonts/font = SubResource( 1 )
