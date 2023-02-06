@@ -101,6 +101,9 @@ android {
     assetPacks = [":assetPacks:installTime"]
 
     defaultConfig {
+
+        multiDexEnabled = true
+
         // The default ignore pattern for the 'assets' directory includes hidden files and directories which are used by Godot projects.
         aaptOptions {
             ignoreAssetsPattern "!.svn:!.git:!.gitignore:!.ds_store:!*.scc:<dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"
@@ -161,6 +164,7 @@ android {
                 keyPassword getReleaseKeystorePassword()
             }
         }
+        
     }
 
     buildTypes {
@@ -246,6 +250,8 @@ android {
             output.outputFileName = "android_${variant.name}.apk"
         }
     }
+
+    
 }
 
 task copyAndRenameDebugApk(type: Copy) {

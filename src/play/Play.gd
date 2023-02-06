@@ -29,6 +29,10 @@ func correct():
 
 func _ready():
 	
+#	$AdMob.load_rewarded_video()
+	$AdMob.load_banner()
+	$AdMob.load_interstitial()
+	
 	$BackButton.connect("pressed", self, "action_back")
 	
 	var data_temp = read_json("user://temp.json")
@@ -86,15 +90,23 @@ func action_hint():
 		$HintPopup.visible = true
 		$HintPopup2.visible = false
 		
-		$HintPopup/JudulHint.text = "Hint:\n"+String(soal.solusi).split(".")[2]
-		$HintPopup/AdsButton.text = "Small ads for solution"
+		var temp = String(soal.solusi).split(".")
+		var temp2 = ""
+		for i in range(2, temp.size()):
+			temp2 += temp[i] + ". "
 		
+		$HintPopup/JudulHint.text = "Hint:\n"+ temp2
+		$HintPopup/AdsButton.text = "Small ads for solution"
 	else:
 		$HintPopup.visible = false
 		$HintPopup2.visible = true
 		
+	
+	
 
 func action_get_ads():
+#	$AdMob.show_rewarded_video()
+	$AdMob.show_interstitial()
 	minta_hint += 1
 	print("memainkan ads ", String(minta_hint))
 	action_hint()
@@ -120,3 +132,27 @@ func action_next():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
+
+#########
+# ADMOB #
+#########
+
+
+#func _on_AdMob_rewarded_video_loaded():
+#	$AdsDemo.text = "Berhasil"
+#	pass # Replace with function body.
+
+
+#func _on_AdMob_rewarded_video_failed_to_load(error_code):
+#	$AdsDemo.text = "Gagal " + str(error_code)
+#	$AdMob.show_interstitial()
+
+func _on_AdMob_interstitial_failed_to_load(error_code):
+#	$AdsDemo.text = "Gagal Inter " + str(error_code)
+	pass
+
+func _on_AdMob_rewarded(currency, amount):
+	pass
+
+
+

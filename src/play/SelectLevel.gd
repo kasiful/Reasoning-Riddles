@@ -1,7 +1,5 @@
 extends Control
 
-
-
 func read_json(path: String):
 	var file = File.new()
 	file.open(path, File.READ)
@@ -13,6 +11,9 @@ func read_json(path: String):
 	return json_data
 
 func _ready():
+	
+#	$AdMob.load_banner()
+
 
 	var easy1 = read_json("user://easy1.json")
 	var medium1 = read_json("user://medium1.json")

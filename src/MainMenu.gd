@@ -1,7 +1,6 @@
 extends Control
 
 
-
 # persiapan database
 func setup_db():
 	
@@ -39,17 +38,39 @@ func setup_db():
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	setup_db()
+	
+	$Menu/Play.connect("pressed", self, "action_play")
+	$Menu/Statistics.connect("pressed", self, "action_statistics")
+	$Menu/FollowUs.connect("pressed", self, "action_followus")
+	$Menu/Settings.connect("pressed", self, "action_settings")
+	$Menu/Exit.connect("pressed", self, "action_exit")
+	
 	pass # Replace with function body.
 
+func action_play():
+	get_tree().change_scene("res://src/play/SelectLevel.tscn")
+
+func action_statistics():
+	get_tree().change_scene("res://src/statistics/Statistics.tscn")
+	
+func action_followus():
+	get_tree().change_scene("res://src/statistics/Statistics.tscn")
+
+func action_settings():
+	get_tree().change_scene("res://src/statistics/Statistics.tscn")
+	
+func action_exit():
+	get_tree().quit()
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	if ($Menu/Play).pressed:
-		get_tree().change_scene("res://src/play/SelectLevel.tscn")
-	if ($Menu/Statistics).pressed:
-		print("Statistics")
-	if ($Menu/FollowUs).pressed:
-		print("FollowUs")
-	if ($Menu/Settings).pressed:
-		print("Settings")
-	if ($Menu/Exit).pressed:
-		get_tree().quit()
+#func _process(delta):
+#	if ($Menu/Play).pressed:
+#		get_tree().change_scene("res://src/play/SelectLevel.tscn")
+#	if ($Menu/Statistics).pressed:
+#		print("Statistics")
+#	if ($Menu/FollowUs).pressed:
+#		print("FollowUs")
+#	if ($Menu/Settings).pressed:
+#		print("Settings")
+#	if ($Menu/Exit).pressed:
+#		get_tree().quit()
