@@ -30,12 +30,12 @@ font_data = ExtResource( 1 )
 size = 24
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=7]
+[sub_resource type="DynamicFont" id=9]
 size = 24
 font_data = ExtResource( 1 )
 
 [sub_resource type="Theme" id=8]
-default_font = SubResource( 7 )
+default_font = SubResource( 9 )
 
 [node name="Play" type="Control"]
 anchor_right = 1.0
@@ -131,7 +131,6 @@ custom_fonts/font = SubResource( 6 )
 text = "Submit"
 
 [node name="HintPopup" type="Control" parent="."]
-visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 

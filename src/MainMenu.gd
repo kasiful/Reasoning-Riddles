@@ -54,7 +54,8 @@ func action_statistics():
 	get_tree().change_scene("res://src/statistics/Statistics.tscn")
 	
 func action_followus():
-	get_tree().change_scene("res://src/statistics/Statistics.tscn")
+#	get_tree().change_scene("res://src/statistics/Statistics.tscn")
+	OS.shell_open("https://www.instagram.com/cutecubestudio/")
 
 func action_settings():
 	get_tree().change_scene("res://src/statistics/Statistics.tscn")

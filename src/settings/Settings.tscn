@@ -1,0 +1,124 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://fonts/Nunito/static/Nunito-Bold.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://fonts/Nunito/static/Nunito-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://src/settings/Settings.gd" type="Script" id=3]
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 37
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 30
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 24
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=8]
+default_font = SubResource( 7 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 30
+font_data = ExtResource( 2 )
+
+[node name="Settings" type="Control"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -300.0
+margin_top = -512.0
+margin_right = 300.0
+margin_bottom = 512.0
+script = ExtResource( 3 )
+
+[node name="BackButton" type="Button" parent="."]
+margin_left = 24.0
+margin_top = 112.0
+margin_right = 127.0
+margin_bottom = 160.0
+custom_fonts/font = SubResource( 2 )
+toggle_mode = true
+shortcut_in_tooltip = false
+text = "< Back"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 195.0
+margin_top = 112.0
+margin_right = 404.0
+margin_bottom = 164.0
+custom_fonts/font = SubResource( 3 )
+text = "Settings"
+align = 1
+
+[node name="ResetButton" type="Button" parent="."]
+margin_left = 150.0
+margin_top = 462.0
+margin_right = 450.0
+margin_bottom = 562.0
+rect_min_size = Vector2( 300, 100 )
+custom_fonts/font = SubResource( 4 )
+text = "Reset the Game"
+icon_align = 1
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 40.0
+margin_top = 252.0
+margin_right = -40.0
+margin_bottom = -406.0
+
+[node name="JudulHint" type="Label" parent="ColorRect"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -200.0
+margin_top = -110.0
+margin_right = 200.0
+margin_bottom = -22.0
+rect_pivot_offset = Vector2( 126, 26 )
+theme = SubResource( 8 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Reset the game, are you sure?"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="YesButton" type="Button" parent="ColorRect"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -208.0
+margin_top = -1.0
+margin_right = -8.0
+margin_bottom = 99.0
+rect_min_size = Vector2( 200, 100 )
+mouse_filter = 1
+custom_fonts/font = SubResource( 9 )
+shortcut_in_tooltip = false
+text = "Yes"
+
+[node name="NoButton" type="Button" parent="ColorRect"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 16.0
+margin_top = -1.0
+margin_right = 216.0
+margin_bottom = 99.0
+rect_min_size = Vector2( 200, 100 )
+mouse_filter = 1
+custom_fonts/font = SubResource( 9 )
+shortcut_in_tooltip = false
+text = "No"
